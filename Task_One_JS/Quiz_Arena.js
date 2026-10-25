@@ -386,7 +386,7 @@ function restart() {
   showQuestion();
 }
 
-// Event listeners
+
 nextBtn.addEventListener('click', nextQuestion);
 document.getElementById('restartBtn').addEventListener('click', restart);
 document.getElementById('restartBtn2').addEventListener('click', restart);
@@ -397,5 +397,4 @@ document.getElementById('backToResult').addEventListener('click', () => {
   resultScreen.style.display = 'block';
 });
 
-// Start the quiz
 showQuestion();
